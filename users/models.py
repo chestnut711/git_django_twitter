@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from django.utils import timezone
 from app.models import Post
 
+"練習"
 
 class UserManager(BaseUserManager):
     """カスタムユーザーマネージャーモデル"""
